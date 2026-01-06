@@ -1,0 +1,14 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Allow: /interest-check
+Allow: /contact
+Allow: /about
+
+Disallow: /admin
+Disallow: /api
+Disallow: /checkout
+Disallow: /products
+
+Sitemap: https://catmat.shop/sitemap.xml
+

@@ -20,6 +20,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://catmat.shop"),
   title: "CATMAT",
   description:
     "Quality desk mats crafted for the modern workspace. Minimalist design meets exceptional functionality.",
@@ -28,6 +29,22 @@ export const metadata: Metadata = {
     title: "CATMAT",
     description: "Quality desk mats crafted for the modern workspace",
     type: "website",
+    url: "https://catmat.shop",
+    siteName: "CATMAT",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "CATMAT - Quality desk mats for the modern workspace",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CATMAT",
+    description: "Quality desk mats crafted for the modern workspace",
+    images: ["/og-image.png"],
   },
 };
 

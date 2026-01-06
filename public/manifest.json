@@ -1,0 +1,18 @@
+{
+  "name": "CATMAT",
+  "short_name": "CATMAT",
+  "description": "Quality desk mats crafted for the modern workspace. Minimalist design meets exceptional functionality.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "src": "/og-image.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
+
