@@ -17,10 +17,10 @@ import {
 } from "@/components/ui/sheet";
 
 const navigation = [
-  { name: "Products", href: "/products" },
-  { name: "Roadmap", href: "/roadmap" },
-  { name: "About", href: "/about" },
+  // { name: "Products", href: "/products" },
+  // { name: "Roadmap", href: "/roadmap" },
   { name: "Interest Check", href: "/interest-check" },
+  { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
 

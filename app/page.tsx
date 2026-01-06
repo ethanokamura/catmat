@@ -39,8 +39,8 @@ export default function Home() {
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button asChild size="lg" className="min-w-[200px]">
-              <Link href="/products">
-                View Collection
+              <Link href="/interest-check">
+                Learn More
                 <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
               </Link>
             </Button>
@@ -138,8 +138,8 @@ export default function Home() {
             Ready to upgrade your desk?
           </h2>
           <Button asChild size="lg">
-            <Link href="/products">
-              View Collection
+            <Link href="/interest-check">
+              Learn More
               <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
             </Link>
           </Button>

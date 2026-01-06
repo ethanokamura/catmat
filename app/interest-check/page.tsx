@@ -188,6 +188,36 @@ export default function InterestCheckPage() {
             />
           </div>
         </section>
+
+        <Separator className="my-8" />
+        <section>
+          <h2 className="text-2xl font-bold mb-4">Specifications:</h2>
+          <div className="flex flex-wrap items-start gap-x-10 gap-4">
+            <div className="w-32">
+              <h2 className="font-medium">Dimensions:</h2>
+              <p className="text-sm text-muted-foreground">
+                12&quot; x 22&quot;
+              </p>
+            </div>
+            <div className="w-32">
+              <h2 className="font-medium">Thickness:</h2>
+              <p className="text-sm text-muted-foreground">4mm</p>
+            </div>
+            <div className="w-32">
+              <h2 className="font-medium">Surface:</h2>
+              <p className="text-sm text-muted-foreground">Amundsen fabric</p>
+            </div>
+            <div className="w-32">
+              <h2 className="font-medium">Base:</h2>
+              <p className="text-sm text-muted-foreground">Natural rubber</p>
+            </div>
+            <div className="w-32">
+              <h2 className="font-medium">Edges:</h2>
+              <p className="text-sm text-muted-foreground">Stitched</p>
+            </div>
+          </div>
+        </section>
+
         <Separator className="my-8" />
         {/* Interest Check Form */}
         <section aria-labelledby="form-heading">
