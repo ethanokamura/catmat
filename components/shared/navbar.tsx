@@ -6,7 +6,7 @@ import { Menu } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { CartSheet } from "@/components/cart/cart-sheet";
+// import { CartSheet } from "@/components/cart/cart-sheet";
 import {
   Sheet,
   SheetContent,
@@ -20,7 +20,7 @@ const navigation = [
   { name: "Products", href: "/products" },
   { name: "Roadmap", href: "/roadmap" },
   { name: "About", href: "/about" },
-  { name: "Contact", href: "/contact" },
+  { name: "Interest Check", href: "/interest-check" },
 ];
 
 export default function Navbar() {

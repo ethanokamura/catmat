@@ -100,6 +100,17 @@ export interface CheckoutSession {
   url: string;
 }
 
+// Interest Check types
+export interface InterestCheck {
+  id: string;
+  mats: string[]; // OG CatMat, PeekMat, FaceMat
+  interestLevel: number; // 1-5
+  pricePoints: string[]; // $35-45, $45-55, $55-65
+  otherSizes: string | null;
+  email: string | null;
+  suggestions: string | null;
+  createdAt: Date;
+}
+
 // Firebase document converters helper type
 export type WithId<T> = T & { id: string };
-
