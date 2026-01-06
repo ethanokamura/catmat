@@ -100,6 +100,16 @@ export interface CheckoutSession {
   url: string;
 }
 
+// Contact Message types
+export interface ContactMessage {
+  id: string;
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+  createdAt: Date;
+}
+
 // Interest Check types
 export interface InterestCheck {
   id: string;

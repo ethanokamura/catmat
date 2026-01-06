@@ -21,6 +21,7 @@ const navigation = [
   { name: "Roadmap", href: "/roadmap" },
   { name: "About", href: "/about" },
   { name: "Interest Check", href: "/interest-check" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
